@@ -2,9 +2,10 @@ largest = -1
 smallest = None
 while True:
     num = input("Enter a number: ")
-    if num=="done" :
+    if num == "done" :
         break
 
+        
     try:
         inum=int(num)
     except:
@@ -18,5 +19,6 @@ while True:
     elif inum<smallest:
         smallest=inum
 
+        
 print("Maximum is", largest)
 print("Minimum is", smallest)
